@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chef calculator</string>
+    <string name="add">Добавить</string>
+    <string name="total_expenditure">Итого потрачено</string>
+    <string name="coast">Цена</string>
+    <string name="coast_pack">Цена упауковки</string>
+    <string name="expenditure">Расход</string>
+    <string name="name_prod">Наименование</string>
+    <string name="product">Продукт</string>
+    <string name="second_title">Введите данные о продукте</string>
+    <string name="spanding">Потрачено</string>
+    <string name="weight">Вес</string>
+    <string name="weight_pack">Вес фасовки</string>
+    <string name="weight_prod_used">Вес использованного продукта</string>
+</resources>

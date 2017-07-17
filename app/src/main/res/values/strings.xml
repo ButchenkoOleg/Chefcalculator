@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Chef calculator</string>
+    <string name="add">Add</string>
+    <string name="total_expenditure">Total expenditure</string>
+    <string name="product">Product</string>
+    <string name="coast">Coast</string>
+    <string name="weight">Weight</string>
+    <string name="spanding">Spanding</string>
+    <string name="expenditure">Expenditure</string>
+    <string name="second_title">Insert data of new product</string>
+    <string name="name_prod">Name</string>
+    <string name="weight_pack">Weight pack in grams</string>
+    <string name="coast_pack">Coast of pack</string>
+    <string name="weight_prod_used">Weight product used in grams</string>
 </resources>

@@ -37,7 +37,8 @@ public class ProductAdapter extends ArrayAdapter<Products> {
             holder.product = (TextView) v.findViewById(R.id.prodName);
             holder.coast = (TextView) v.findViewById(R.id.prodCoast);
             holder.weight = (TextView) v.findViewById(R.id.prodWeight);
-            holder.spending = (TextView) v.findViewById(R.id.spanding);
+            holder.weightSpending = (TextView) v.findViewById(R.id.weightSpanding);
+            holder.expenditure = (TextView) v.findViewById(R.id.expenditure);
             v.setTag(holder);
         } else {
             holder = (ViewHolder) v.getTag();
@@ -45,9 +46,10 @@ public class ProductAdapter extends ArrayAdapter<Products> {
 
 
         holder.product.setText("Product: " + prodList.get(position).getName());
-        holder.coast.setText("Coast: " + prodList.get(position).getCoast());
         holder.weight.setText("Weight: " + prodList.get(position).getWeight());
-        //holder.spending.setText("Spending: " + prodList.get(position). );
+        holder.coast.setText("Coast: " + prodList.get(position).getCoast());
+        holder.weightSpending.setText("Spending weight : " + prodList.get(position).getWeightSpanding());
+        holder.expenditure.setText("Expenditure: " + prodList.get(position).getExpenditure());
         return v;
 
     }
@@ -56,7 +58,8 @@ public class ProductAdapter extends ArrayAdapter<Products> {
         public TextView product;
         public TextView coast;
         public TextView weight;
-        public TextView spending;
+        public TextView weightSpending;
+        public TextView expenditure;
 
 
     }

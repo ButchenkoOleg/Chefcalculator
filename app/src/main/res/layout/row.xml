@@ -15,7 +15,7 @@
                 android:id="@+id/prodName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Product"
+                android:text="@string/product"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#166CED"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -25,22 +25,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#D64530"
-                android:text="Coast" />
+                android:text="@string/coast" />
 
             <TextView
                 android:id="@+id/prodWeight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Weight"
+                android:text="@string/weight"
                 android:textColor="#D64530"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <TextView
-                android:id="@+id/spanding"
+                android:id="@+id/weightSpanding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#D64530"
-                android:text="Spanding" />
+                android:text="@string/spanding" />
+
+            <TextView
+                android:id="@+id/expenditure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D64530"
+                android:text="@string/expenditure" />
 
     </LinearLayout>
 
